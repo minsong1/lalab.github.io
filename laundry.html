@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LaLab:나만의 천연 세탁용품 연구소</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css\reset.css">
+    <link rel="stylesheet" type="text/css" href="css\main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- 로고 -->
+    <div id = "logo">
+      <img src = "img\Logo_Horizontal.png" onclick="location.href = 'index.html'">
+    </div>
+
+    <section id = "nav" >
+      <div class = "nav" onClick="location.href='recipe.html'"><p>레시피 저장소</p></div>
+      <div class = "nav" onClick="location.href='fabric.html'"><p>섬유유연제 연구실</p></div>
+      <div class = "nav" onClick="location.href='laundry.html'"><p>세탁세제 연구실</p></div>
+    </section>
+
+    <div id = "nav_bar_laundry">
+    </div>
+
+    <!-- 배경 -->
+    <div id = "img-BG_laundry_01">
+      <img src="img\bg\laundry_01.png">
+    </div>
+
+    <div id = "img-BG_laundry_02">
+      <img src="img\bg\laundry_02.png">
+    </div>
+
+    <div id = "img-BG_laundry_03">
+      <img src="img\bg\laundry_03.png">
+    </div>
+
+  <section id = "test">
+    <!-- 질문영역 -->
+      <div class = "question_box">
+          <div class = "img-bubble">
+            <img src="img\Bubble_report_round.png">
+          </div>
+          <p class = "question_text">
+          </p>
+      </div>
+      <!-- 선택지 영역 -->
+      <section id = "answer">
+      </section>
+      <!-- 슬롯 영역 -->
+      <section id = "slot"> </section>
+  </section>
+
+  <!-- 결과 간략 -->
+  <section id = "result_preview">
+    <div id = "explain_box"> </div>
+    <div id = "explain">
+      <img id = "reportBubble" src = "img\Bubble_report_square.png">
+      <p id = "small_title">세탁세제 연구 결과</p>
+      <p id = "big_title"></p>
+      <p id = "description"></p>
+    </div>
+    <div id = "front_img"> </div>
+  </section>
+
+  <!-- 결과 디테일 -->
+  <section id = "result_detail">
+    <!-- 배경 데코 -->
+    <img id = "result_deco01" src = "img\bg\result_01.png">
+    <img id = "result_deco02" src = "img\bg\result_02.png">
+    <img id = "result_deco03" src = "img\bg\result_03.png">
+    <img id = "result_deco04" src = "img\bg\result_04.png">
+    <img id = "result_deco05" src = "img\bg\result_05.png">
+    <img id = "result_deco06" src = "img\bg\result_06.png">
+    <!-- 내용 -->
+    <div id = "bg_box">
+      <div id = "t1">
+        <img src = "img\laundry\result\labBubble.png">
+      </div>
+      <div id = "mBox_area"> </div>
+      <div id = "t2">
+        <img src = "img\laundry\result\labBubble.png">
+      </div>
+      <div id = "makingBox_area"> </div>
+      <div id = "btn_area">
+      </div>
+      <div id = "footer_result">
+        <img id = "footerLogo" src = "img/Logo_Vertical.png" onClick="location.href='index.html'">
+        <p id = "home" class = "footerTxt" onClick="location.href='index.html'">Home</p>
+        <p id = "project" class = "footerTxt">Project</p>
+        <div id = "footer_bar"> </div>
+        <p id ="copyright">
+          Copyrightⓒ2020 By Kim Chaeyoung, Jang Minsun, Jeong Minsong . All right reserved.
+        </p>
+        <div id = "footer_arrow"></div>
+      </div>
+    </div>
+    <div id = "mini_img"> </div>
+  </section>
+
+
+    <script type = "text/javascript" src="js/data.js"></script>
+    <script type = "text/javascript" src="js/laundry_test.js"></script>
+  </body>
+</html>

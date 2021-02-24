@@ -1,0 +1,2146 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+    align-content: center;
+    margin: auto;
+    /*배경 격자무늬 코드*/
+    background-color: #F8FAFF;
+    background-image: linear-gradient(90deg, rgba(210,233,255,30%) 6% , rgba(248,250,255,0%) 0 , transparent 50%), linear-gradient(rgba(210,233,255,30%) 6% , rgba(248,250,255,0%) 0 , transparent 50%);
+    background-size: 48px 48px;
+}
+
+body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+#logo{
+  position: absolute;
+  left: 1.46%;
+  top: 2.04%;
+  width: 108.5px;
+  height: 23px;
+}
+
+#logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#nav{
+  position: absolute;
+  width: content;
+  height: 20px;
+  right: 28px;
+  top: 24px;
+}
+.nav {
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #5F9DF8;
+  float: right;
+  margin: 0 16.5px;
+}
+
+#intro_logo{
+  position: fixed;
+  left: 46.98%;
+  right: 46.98%;
+  top: 2.29%;
+  bottom: 95.14%;
+  z-index: 1;
+}
+/* 지우면 안됨 */
+.img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#footer_result{
+  position: absolute;
+  top: 4035px;
+  left: 102px;
+  width: 1133px;
+  height: 85px;
+}
+#footerLogo {
+  position: absolute;
+  left: 0;
+  top:5px;
+}
+.footerTxt{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #7783A6;
+}
+#home {
+  position: absolute;
+  left: 198px;
+  top: 0;
+}
+#project{
+  position: absolute;
+  left: 354px;
+  top: 0;
+}
+#footer_bar{
+  position: absolute;
+  top: 37px;
+  left: 198px;
+  width: 28.5px;
+  height: 0;
+  border: 2px solid #7783A6;
+}
+#copyright{
+  position: absolute;
+  top: 69px;
+  left: 198px;
+  width: content;
+  height: 16px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7783A6;
+}
+
+#footer_arrow {
+  position: absolute;
+  top: 22px;
+  right: 121px;
+  width: 46px;
+  height: 46px;
+  border: 2px solid #324275;
+  background: #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+#footer_arrow::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -5px 0 0 -8px;
+  border-left: 2px solid #324275;
+  border-bottom: 2px solid #324275;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  box-sizing: border-box;
+}
+
+#footer_recipe {
+  position: absolute;
+  top: 969px;
+  left: 20.46%;
+  width: 1133px;
+  height: 155px;
+}
+
+/* ----------- start_intro ----------- */
+
+.introImg{
+  width: 32%;
+  height: 67.7%;
+  margin: 6% auto 0 auto;
+}
+
+.introImg img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#startIntroBox_01{
+  position: absolute;
+  width: 92.9%;
+  height: 87.7%;
+  top: 7%;
+  left: 3.5%;
+  background: #EFEDF8;
+  border-radius: 22px;
+}
+
+#textBox_01 {
+  width: 44.1%;
+  height: 10.8%;
+  margin: 1% auto 0 auto;
+
+  background: #F8FAFF;
+  box-shadow: 0px 11px 27px rgba(149, 142, 228, 0.08);
+  border-radius: 10px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  line-height: 300%;
+  color: #324275;
+}
+
+#etc{
+  height: 7%;
+}
+
+#startIntroBox_02{
+  padding: 3px 0 0 0 ;
+  width: 92.9%;
+  height: 87.7%;
+  margin: 0 0 0 3.5%;
+  background: #ECF1FB;
+  border-radius: 22px;
+}
+
+#textBox_02{
+  width: 44.1%;
+  height: 23.5%;
+  margin: 0 auto 0 auto;
+  background: #F8FAFF;
+  box-shadow: 0px 11px 27px rgba(149, 142, 228, 0.08);
+  border-radius: 10px;
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+  line-height: 150%;
+  color: #324275;
+}
+#textBox_02 p {
+  padding: 4.5% 0 0 0;
+}
+
+#box02_img{
+  margin: 0 auto 0 auto;
+}
+
+#img_bg_start01{
+  position: fixed;
+  left: 28px;
+  top: 227px;
+}
+
+#img_bg_start02{
+  position: fixed;
+  left: 1766px;
+  top: 636px;
+}
+/* ---------- Start_select  ---------- */
+#selectMain{
+  position: absolute;
+}
+
+.start_img{
+  background-size: cover;
+}
+
+.sMain_div{
+  height: 100%;
+  background-image: url("../img/start/s_main.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.sBg_div_laundry{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-image: url("../img/start/s_laundry.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.sBg_div_fabric{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-image: url("../img/start/s_fabric.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.sBg_div_recipe{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-image: url("../img/start/s_recipe.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.btn_area{
+  position: absolute;
+  top: 6%;
+  left: 3.5%;
+  width: content;
+  height: content;
+}
+
+.btn_bg{
+  margin: 0 0 20px 0;
+  height: 75px;
+  width: 75px;
+  background: #FFFFFF;
+  border-radius: 41.5px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 80px;
+  color: #4B9EFF;
+}
+
+.btn_bg img{
+  float: left;
+  margin: 15px 0 0 14px;
+  width: 46px;
+  height: 46px;
+  /* max-width: 100%;
+  max-height: 100%; */
+}
+
+.btn_bg p{
+  /* border: 1px dashed red; */
+  margin: 0 0 0 82px;
+  opacity: 0;
+  width: content;
+}
+
+/* ---------- 세탁세제 테스트 ---------- */
+#img-BG_laundry_01{
+  position: absolute;
+  left: 1681px;
+  top: 200px;
+}
+#img-BG_laundry_02{
+  position: absolute;
+  left: 93px;
+  top: 349px;
+}
+#img-BG_laundry_03{
+  position: absolute;
+  left: 264px;
+  top: 824px;
+}
+
+#nav_bar_laundry {
+  position: absolute;
+  top: 47px;
+  right: 321px;
+  width: 110px;
+  height: 2px;
+  background: #5F9DF8;
+  border-radius: 2px;
+}
+
+#slot{
+  position: absolute;
+  bottom: 3.5%;
+  left: 38.48%;
+  width: content;
+  height: 11.8%;
+  background: #F3F4FA;
+  box-shadow: 0px 2.57553px 6.43883px 2.34234px rgba(229, 229, 229, 0.5);
+  border-radius: 12px;
+}
+
+.slot_div{
+  float: left;
+  margin: 10px;
+  width: 91.62px;
+  height: 94.89px;
+  background: #FFFFFF;
+  border-radius: 12px;
+}
+.slot_img{
+  width: 91.62px;
+  height: 94.89px;
+  bottom: 0;
+  overflow: hidden;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 43.63px;
+  line-height: 170%;
+  text-align: center;
+  color: #F3F4FA;
+}
+
+.slot_img img {
+  max-width: 100%;
+}
+
+.slot_value{
+  position: absolute;
+  bottom: 8px;
+  width: 91.62px;
+  height: 28%;
+  background-color: #FFFFFF;
+  border-radius: 11px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 0.96em;
+  line-height: 235%;
+  text-align: center;
+  color: #7783A6;
+}
+
+#answer{
+  width: 100%;
+  height: 100%;
+}
+
+.laundry_aBg{
+  position: absolute;
+  width: 308px;
+  height: 382px;
+  top: 333px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px 3px rgba(229, 229, 229, 0.4);
+  border-radius: 20px;
+}
+.laundry_aColorBg{
+  position: absolute;
+  width: 308px;
+  height: 282px;
+  top: 333px;
+  border-radius: 20px;
+}
+.laundry_aNumCount{
+  float: right;
+  width: content;
+  height: content;
+  margin: 7px 23px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.laundry_aImg{
+  position: absolute;
+  width: 308px;
+  height: 353px;
+  top: 250px;
+}
+.laundry_aImg img {
+  position: absolute;
+  bottom: 0px;
+  max-width: 100%;
+}
+.laundry_aText{
+  position: absolute;
+  width: 308px;
+  height: 32px;
+  top: 636px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #324275;
+}
+.laundry_aText_d{
+  position: absolute;
+  font-weight: bolder;
+  width: 308px;
+  height: 21px;
+  top: 673px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #324275;
+}
+.caution {
+  position: absolute;
+  margin: 120px 0 0 192px;
+  z-index: 2;
+}
+
+.value_1_box {
+  float: right;
+  margin: 336px 43px 0 0;
+  width: 222px;
+  height: 28px;
+}
+.value_2_box {
+  float: right;
+  margin: 20px 43px 0 0;
+  width: 222px;
+  height: 28px;
+}
+.value_1 {
+  float: left;
+  margin: 0 15px 0 4px;
+  width: 63px;
+  height: 28px;
+  background-color: #D2E9FF;
+  border-radius: 30px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #488FF7;
+}
+.value_2 {
+  float: left;
+  margin: 0 15px 0 4px;
+  width: 63px;
+  height: 28px;
+  background-color: #FFCEBE;
+  border-radius: 30px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #FF7145;
+}
+.value_dot{
+  float: right;
+  margin: 4px;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+}
+/* ---------- 세탁세제 결과 ---------- */
+#explain_box{
+  position: absolute;
+  width: 29.427%;
+  height: 85%;
+  top: 0;
+  left: 9.53%;
+  background: #FFFFFF;
+  opacity: 0.5;
+  box-shadow: 0px 2px 2px rgba(72, 143, 247, 0.05), 0px 10px 13px rgba(72, 143, 247, 0.07);
+  border-radius: 0px 0px 20px 20px;
+}
+
+#reportBubble{
+  position: absolute;
+  top: 3.8%;
+  left: 11.875%;
+}
+
+#small_title{
+  position: absolute;
+  top : 6.7%;
+  left: 16.35%;
+  width: content;
+  height: 33px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 40px;
+  color: #5F9DF8;
+}
+
+#big_title{
+  position: absolute;
+  top: 12.5%;
+  left : 11.875%;
+
+  font-family: 'GmarketSansMedium';
+  font-size: 55px;
+  color: #324275;
+}
+
+#description{
+  position: absolute;
+  top : 24.25%;
+  left : 11.875%;
+  width: 24.1%;
+  height: content;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 160%;
+  color: #444958;
+}
+
+.feature_area{
+  position: absolute;
+  width: 432px;
+  height: 97px;
+  left: 11.875%;
+}
+
+.feature0{
+  top: 41.17%;
+}
+.feature1{
+  top: 55.1%;
+}
+
+.feature2{
+  top: 68.83%;
+}
+
+.iconTitle_box{
+  position: absolute;
+  top:0;
+  left: 30%;
+  width: content;
+  height: 34px;
+  border-radius: 35px;
+  background: #D2E9FF;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 17.37px;
+  line-height: 34px;
+  text-align: center;
+  color: #488FF7;
+}
+.iconTitle_box p {
+  padding: 0 14px;
+}
+
+.iconText{
+  position: absolute;
+  top:45.36%;
+  left: 30%;
+  width: 302px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 150%;
+  color: #444958;
+}
+
+#front_img{
+  position: absolute;
+  bottom: 0;
+  right: 5.1%;
+  width: 962px;
+  height: 962px;
+  opacity: 0;
+}
+#front_img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#mini_img{
+  position: absolute;
+  top: 5.57%;
+  left: 30.2%;
+  width: 810px;
+  height: 810px;
+}
+#mini_img img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+#bg_box{
+  position: absolute;
+  top: 74.02%;
+  left: 16.8%;
+  width: 66.5%;
+  height: 4206px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px rgba(72, 143, 247, 0.05), 0px 10px 13px 2px rgba(72, 143, 247, 0.07);
+}
+
+#t1{
+  position: absolute;
+  top: 230px;
+  left: 27.72%;
+}
+#t2{
+  position: absolute;
+  top: 1284px;
+  left: 27.72%;
+}
+
+.t1{
+  position: absolute;
+  top: 45px;
+  left: 139px;
+  width: content;
+  height: 21px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 21px;
+  color : #324275;
+}
+
+
+.t2{
+  position: absolute;
+  top: 76px;
+  left: 139px;
+  width: content;
+  height: 32px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 32px;
+  color : #5F9DF8;
+}
+
+#mBox_area{
+  position: absolute;
+  top: 520px;
+  left: 3.13%;
+}
+
+.metarialBox{
+  float: left;
+  margin: 0 38px 50px 0;
+  width: 371px;
+  height: 226.82px;
+  background-color: #FFFFFF;
+  border: 1px solid #DCE1ED;
+  border-radius: 18.1459px;
+
+}
+
+.meterialImg{
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  margin: 34px 0;
+}
+.meterialImg img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.meterialName{
+  position: absolute;
+  margin: 34px 0 0 162px;
+  width: 180px;
+  height: 32px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 32px;
+  color: #324275;
+}
+
+.volumeBox{
+  position: absolute;
+  margin:77px 0 0 162px;
+  width: content;
+  height: 31px;
+  padding: 0  15px;
+  background: #D2E9FF;
+  border-radius: 31.9117px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 14px;
+  line-height: 32px;
+  color: #324275;
+}
+
+.meterialText{
+  position: absolute;
+  margin: 123px 0 0 162px;
+  width: 190px;
+  height: content;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 17px;
+  line-height: 150%;
+  color: #3B3F4B;;
+}
+
+.dimBox{
+  position: absolute;
+  width: 371px;
+  height: 226.82px;
+  background-color: #fff;
+  border-radius: 18.1459px;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+
+  z-index: 2;
+}
+
+.link_btn{
+  margin: 92px 0 0 127px;
+  width: 117px;
+  height: 41.67px;
+  background: #5F9DF8;
+  border-radius: 48.1764px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 21px;
+  line-height: 42px;
+  color : #fff;
+  text-align: center;
+}
+
+#makingBox_area{
+  position: absolute;
+  top: 1630px;
+  left: 49px;
+  width: 1168px;
+  height: 2055px;
+
+}
+.makingBox{
+  position: absolute;
+  width: 560px;
+  height: 662.58px;
+  border-radius: 30px;
+}
+
+.makingImg{
+  position: absolute;
+  bottom: 147px;
+  width: 560px;
+  height: 560px;
+}
+
+.makingImg img {
+  max-width: 100% ;
+  max-height:100% ;
+}
+
+.makingNum{
+  position: absolute;
+  left: 9.64%;
+  top: 80.9%;
+  width: content;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 170%;
+  text-align: center;
+  color: #444958;
+}
+
+.makingText{
+  position: absolute;
+  top: 83.9%;
+  left: 19.82%;
+  width: 401px;
+  height: 70px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 26px;
+  line-height: 130%;
+  color : #444958;
+}
+
+.sub_text{
+  position: absolute;
+  top: 95%;
+  left: 20.5%;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 21px;
+  color : #7783A6;
+}
+
+.btn{
+  position: absolute;
+  top: 3769px;
+  width: 225.53px;
+  height: 44.67px;
+  background: #ffffff;
+  box-shadow: 0px 8.78702px 21.9675px 1.4645px rgba(95, 157, 248, 0.08);
+  border-radius: 14.645px;
+  color : #7783A6;
+}
+
+.btn img {
+  position: absolute;
+  top: 12px;
+  left: 25px;
+}
+
+.btn p {
+  position: absolute;
+  top: 13px;
+  left: 57px;
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: center;
+  line-height: 21px;
+
+}
+
+
+/* ---------- 섬유유연제 향 연구 인트로 ---------- */
+
+#scrollDown {
+  border: 3px solid #4B9EFF;
+}
+
+#scrollDown_bg {
+  background: linear-gradient(139.7deg, rgba(255, 255, 255, 0.3) 14.48%, rgba(255, 255, 255, 0) 87.15%);
+  backdrop-filter: blur(5px);
+}
+
+#scrollDown_arrow{
+  position: absolute;
+  top: 10.2px;
+  left: 12px;
+  width: 24.6px;
+  height: 27.6px;
+}
+
+@-webkit-keyframes play-state{
+  from{
+    top: 87.5%;
+  }
+  to{
+    top: 89%;
+  }
+}
+.scroll_arrow{
+  position: absolute;
+  top: 87.5%;
+  left: 47.91%;
+  width: 48px;
+  height: 48px;
+  border-radius: 100px;
+  z-index: 2;
+
+  animation: play-state 1.5s linear infinite alternate;
+  animation-timing-function:ease;
+}
+
+#box-fabricIntro_01 {
+  position: absolute;
+  width: 720px;
+  height: 720px;
+  left: 15.78%;
+  top: 14.24%;
+  background: #F0EDF7;
+  border-radius: 22px;
+  transform: rotate(2.8deg);
+}
+
+#fbIntro-imgBox_01{
+  width: 650px;
+  height: 650px;
+  margin: 30px 0 0 33px;
+}
+
+#fb_intro_textBox_01{
+  position: absolute;
+  width: 673.5px;
+  height: 253.5px;
+  left: 49.94%;
+  top: 34.26%;
+
+  background: #FEAE9D;
+  box-shadow: -5px 11px 27px rgba(166, 115, 115, 0.3);
+  border-radius: 42px;
+  transform: rotate(-5.8deg);
+}
+
+.fbIntro_text{
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 30px;
+  /* text-align: center; */
+  line-height: 150%;
+  color : #FFFFFF;
+}
+
+#textLine_1{
+  margin: 58px 0 0 80px;
+}
+#textLine_2, #textLine_3 {
+  margin: 0 0 0 80px;
+}
+#textLine_4 {
+  margin: 58px 0 0 50px;
+}
+#textLine_5, #textLine_6 {
+  margin: 0 0 0 50px;
+}
+
+#empty {
+  width: 100%;
+  height: 91px;
+  top: 0px;
+  /* border: 1px dashed blue; */
+}
+
+#box-fabricIntro_02{
+  position: absolute;
+  width: 688px;
+  height: 688px;
+  left: 929.42px;
+  top: 1091px;
+
+  background: #F0EDF7;
+  border-radius: 22px;
+  transform: rotate(-9.21deg);
+}
+#fbIntro-imgBox_02{
+  width: 658px;
+  height: 658px;
+  margin: 15px;
+}
+
+#fb_intro_textBox_02{
+  position: absolute;
+  width: 668.5px;
+  height: 253.5px;
+  left: 280px;
+  top: 1241px;
+
+  background: #FEAE9D;
+  box-shadow: -5px 11px 27px rgba(166, 115, 115, 0.3);
+  border-radius: 42px;
+  transform: rotate(5deg);
+}
+
+#btn_fabric_start{
+  position: absolute;
+  width: 226px;
+  height: 59px;
+  left: 824px;
+  top: 1722px;
+  background-color: #FFDC82;
+  box-shadow: 0px 8px 15px rgba(72, 143, 247, 0.15);
+  border-radius: 14.645px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 32px;
+  text-align: center;
+  line-height: 62px;
+  color : #FFFFFF;
+}
+
+#img_bg_fbIntro_01{
+  position: absolute;
+  left: 185px;
+  top: 140px;
+}
+#img_bg_fbIntro_02{
+  position: absolute;
+  left: 1613px;
+  top: 710px;
+}
+#img_bg_fbIntro_03{
+  position: absolute;
+  left: 185px;
+  top: 1252px;
+}
+#img_bg_fbIntro_04{
+  position: absolute;
+  left: 364px;
+  top: 1440px;
+}
+
+#img_bg_fbIntro_05{
+  position: absolute;
+  left: 1508px;
+  top: 1774px;
+}
+
+/* ---------- 섬유유연제 테스트 ---------- */
+.img-BG_fabric_test01{
+  position: absolute;
+  width: 38px;
+  height: 40px;
+  left: 246px;
+  top: 642px;
+}
+.img-BG_fabric_test02{
+  position: absolute;
+  width: 125px;
+  height: 74px;
+  left: 1573px;
+  top: 839px;
+}
+
+#nav_bar_fb {
+  position: absolute;
+  top: 47px;
+  right: 167px;
+  width: 124px;
+  height: 2px;
+  background: #5F9DF8;
+  border-radius: 2px;
+}
+
+.question_box{
+  position: absolute;
+  width: 767px;
+  height: 100px;
+  left: 577px;
+  top: 90px;
+  background: #FDFDFD;
+  box-shadow: 0px 10px 20px 2px rgba(72, 143, 247, 0.1);
+  border-radius: 100px;
+}
+
+.img-bubble{
+  width: 86.98px;
+  height: 86.98px;
+  float: left;
+  margin: 7px;
+}
+
+.img-bubble img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.question_text{
+  margin: 0 0 0 100.98px;
+  width: 666px;
+  height: 100px;
+
+  font-family: 'GmarketSansMedium';
+  font-size: 29px;
+  line-height: 100px;
+  text-align: center;
+  color: #324275;
+}
+
+.status_bar{
+  position: absolute;
+  width: 760px;
+  height: 10px;
+  left: 582px;
+  top: 220px;
+
+  background: #EBEFFB;
+  border-radius: 30px
+}
+
+.status_bar_charged{
+  width: 12.5%;
+  height: 10px;
+
+  background: #5F9DF8;
+  border-radius: 30px;
+}
+
+/* 답변 영역 */
+#answer {
+  opacity: 0;
+}
+
+.answer_btn{
+  position: absolute;
+  top : 37.46130030959752%;
+  width: 352px;
+  height: 408.77px;
+  border-radius: 22.8362px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px rgba(72, 143, 247, 0.05), 0px 10px 13px 2px rgba(72, 143, 247, 0.07);
+  border-radius: 22.8362px;
+}
+
+.answer_colorBg{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 310px;
+  border-radius: 22.8362px;
+}
+
+.answer_img{
+  position: absolute;
+  bottom: 24.21899845879101%;
+  left: 12px;
+  width: 332px;
+  height: 348px;
+}
+.answer_img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.answer_text{
+  position: absolute;
+  bottom: 0%;
+  width: 352px;
+  height: 99px;
+
+  font-family: 'GmarketSansMedium';
+  font-size: 28px;
+  line-height: 99px;
+  text-align: center;
+  color: #575A62;
+}
+
+.a1{
+  left: 19.94791666666667%;
+}
+.a2{
+  left: 41.82291666666667%;
+}
+.a3{
+  left: 63.80208333333333%;
+}
+
+/* ---------- 섬유유연제 결과 ---------- */
+#exBox {
+  position: absolute;
+  width: 717px;
+  height: 787px;
+  left: 140px;
+  top: 0;
+  background: #FFFFFF;
+  opacity: 0.1;
+  box-shadow: 0px 2px 2px rgba(72, 143, 247, 0.05), 0px 10px 13px 2px rgba(72, 143, 247, 0.07);
+  border-radius: 0px 0px 20px 20px;
+}
+
+#ex_Area {
+  position: absolute;
+  width: 717px;
+  height: 787px;
+  left: 140px;
+  top: 0;
+}
+
+#fbBubble {
+  position: absolute;
+  top: 3.8%;
+  left: 11.875%;
+}
+
+#title_1{
+  position: absolute;
+  top : 6.7%;
+  left: 164px;
+  width: content;
+  height: 33px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 28px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+#title_2{
+  position: absolute;
+  top: 12.5%;
+  left : 11.875%;
+
+  font-family: 'GmarketSansMedium';
+  font-size: 55px;
+  color: #FFFFFF;
+}
+
+#fbDescription{
+  position: absolute;
+  top : 190px;
+  left : 11.875%;
+  width: 498px;
+  height: content;
+
+  font-family: 'GmarketSansLight';
+  /* font-weight: bolder; */
+  font-size: 20px;
+  line-height: 160%;
+  color: #FFFFFF;
+}
+
+#scent_box{
+  position: absolute;
+  height: 36px;
+  left : 11.875%;
+  top: 390px;
+  border: 1.5px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 0 15px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 22px;
+  line-height:36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#scent_bar{
+  position: absolute;
+  width: 18px;
+  height: 212px;
+  left : 11.875%;
+  top: 460px;
+
+  border-radius: 50px;
+}
+.note_line {
+  width: 25px;
+  margin-top : 20px;
+  border-top: 2px dotted #ffffff;
+}
+
+.note_title{
+  position: absolute;
+  left: 40px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.note_text{
+  position: absolute;
+  top: 26px;
+  left: 40px;
+
+  font-family: 'GmarketSansLight';
+  /* font-weight: bolder; */
+  font-size: 18px;
+  line-height:24px;
+  color: #FFFFFF;
+}
+.note_0{
+  position: absolute;
+  top: 462px;
+  left: 103px;
+  width: 517px;
+  height: 55px;
+}
+.note_1{
+  position: absolute;
+  top: 540px;
+  left: 103px;
+  width: 517px;
+  height: 55px;
+}
+.note_2{
+  position: absolute;
+  top: 616px;
+  left: 103px;
+  width: 517px;
+  height: 55px;
+}
+.ref{
+  position: absolute;
+  width: content;
+  height: 20px;
+  left : 11.875%;
+  top: 705px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+
+#big_img{
+  position: absolute;
+  top: 0 ;
+  opacity: 0;
+  overflow: hidden;
+}
+
+#big_img img {
+  max-width: 100%;
+}
+
+#result_deco01{
+  position: absolute;
+  top: 976px;
+  right: 111px;
+}
+#result_deco02{
+  position: absolute;
+  top: 1198px;
+  left: 71px;
+}
+#result_deco03{
+  position: absolute;
+  top: 1743px;
+  left: 1488px;
+}
+#result_deco04{
+  position: absolute;
+  top: 2943px;
+  left: 34px;
+}
+#result_deco05{
+  position: absolute;
+  top: 3648px;
+  right: 69px;
+}
+#result_deco06{
+  position: absolute;
+  top: 4115px;
+  left: 36px;
+}
+#result_deco07{
+  position: absolute;
+  top: 5134px;
+  left: 1726px;
+}
+
+.result_deco{
+  opacity: 0.5;
+}
+
+/* ---------- 레시피 저장소 ---------- */
+
+#recipe_top{
+  position: absolute;
+  width: 100%;
+}
+
+#nav_bar_recipe{
+  position: absolute;
+  top: 47px;
+  right: 39px;
+  width: 101px;
+  height: 2px;
+  background: #5F9DF8;
+  border-radius: 2px;
+}
+
+#bubble_box{
+  position: absolute;
+  top: 125px;
+  left: 31.25%;
+  width: 712.24px;
+  height: 101.86px;
+  background: #FDFDFD;
+  box-shadow: 0px 1.60956px 1.60956px rgba(72, 143, 247, 0.05), 0px 8.04779px 10.4621px 1.60956px rgba(72, 143, 247, 0.07);
+  border-radius: 79.5794px;
+}
+#bubble{
+  position: absolute;
+  margin: 14px 0 0 12px;
+  width: 77.99px;
+  height: 77.99px;
+}
+
+#recipeText{
+  position: absolute;
+  right: 0;
+  width: 712.24px;
+  height: 101.86px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 23px;
+  text-align: center;
+  line-height: 102px;
+  color: #324275;
+}
+
+.toggle{
+  position: absolute;
+  top: 260px;
+
+  height: 57.3px;
+  box-shadow: 0px 1.59159px 1.59159px rgba(72, 143, 247, 0.05), 0px 7.95794px 15px 1.59159px rgba(72, 143, 247, 0.07);
+  border-radius: 29.4444px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 19px;
+  text-align: center;
+  line-height: 57.3px;
+}
+.toggle p{
+  position: absolute;
+  right: 22px;
+  /* border: 1px solid red; */
+}
+.toggle_img{
+  position: absolute;
+  top: 9px;
+  left: 12px;
+  width: 40px;
+  height: 40px;
+}
+
+#toggle_laundry{
+  width: 160.07px;
+  left: 39.27%;
+  background: #5F9DF8;
+  fill : #FFFFFF;
+  color : #FFFFFF;
+}
+
+#toggle_fabric{
+  width: 175.07px;
+  left: 51.71%;
+  background: #F8FAFF;
+  fill : #5F9DF8;
+  color: #5F9DF8;
+}
+
+#laundry_recipe{
+  /* vertical-align: middle; */
+  position: absolute;
+  top: 400px;
+  left: 11%;
+  width: 1507px;
+}
+
+#fabric_recipe{
+    position: absolute;
+    height: 1377px;
+    top: 400px;
+
+    left: 11%;
+    width: 1507px;
+}
+
+.recipe_box{
+  float: left;
+  margin: 28px 1.85%;
+  width: 446.32px;
+  height: 323.09px;
+  box-shadow: 0px 2px 2px rgba(72, 143, 247, 0.05), 0px 10px 13px 2px rgba(72, 143, 247, 0.07);
+  border-radius: 23px;
+  background: #EDF6F8;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  color: #324275;
+}
+.recipe_img {
+  position: absolute;
+  border-radius: 23px;
+
+  opacity: 0.8;
+}
+
+.recipe_title {
+  position: absolute;
+  margin: 36px 0 0 38px;
+
+  font-size: 36px;
+  line-height: 42px;
+
+}
+
+.recipe_title_s {
+  position: absolute;
+  margin: 83px 0 0 38px;
+
+  font-size: 25.5px;
+  line-height: 29px;
+}
+
+.white_box {
+  position: absolute;
+  width: 446.32px;
+  height: 323.09px;
+  border-radius: 23px;
+  background: linear-gradient(180deg, rgba(237, 246, 248, 0) 52.6%, rgba(237, 246, 248, 0.8) 100%);
+}
+
+.modal {
+  top: 100px;
+  max-width : 800px;
+  height: 5400px;
+  padding: 0 0;
+}
+
+.modal_bg{
+  position: absolute;
+  top: 869px;
+  width: 100%;
+  height: 531px;
+
+  background: #F8FAFF;
+}
+
+.modal_title {
+  position: absolute;
+  top: 53px;
+  left: 94px;
+  width: 611px;
+  height: 103px;
+
+  background: #FDFDFD;
+  box-shadow: 0px 1.60956px 1.60956px rgba(72, 143, 247, 0.05), 0px 8.04779px 10.4621px 1.60956px rgba(72, 143, 247, 0.07);
+  border-radius: 80.4779px;
+}
+
+.bubble {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 78.87px;
+  height: 78.87px;
+}
+
+.modal_title_p{
+  position: absolute;
+  left: 91px;
+  width: 520px;
+  height: 103px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 34px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 103px;
+  color: #324275;
+}
+
+.modal_img {
+  position: absolute;
+  top: 204px;
+  left: 117px;
+}
+
+.modal_text {
+  position: absolute;
+  top: 785px;
+  left: 73px;
+  width: 654px;
+  height: 177px;
+  background: #FFFFFF;
+  box-shadow: 0px 11.0052px 27.5129px 0.917097px rgba(95, 157, 248, 0.15);
+  border-radius: 20px;
+}
+
+.modal_text_p {
+  width: 565px;
+  height: 117px;
+  margin: 43px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 155%;
+  color: #444958;
+}
+
+.modal_icon_area {
+  position: absolute;
+  top: 1055px;
+  left: 59px;
+  width: 682px;
+  height: 269px;
+}
+
+.modal_icon_box {
+  float: left;
+  margin: 0 14px;
+  width: 197px;
+  height: 267px;
+
+  background: #FFFFFF;
+  border: 1px solid #DCE1ED;
+  box-sizing: border-box;
+  border-radius: 15.3162px;
+}
+
+.modal_icon {
+  margin: 27px 0 0 57px;
+}
+
+.modal_icon_title {
+  position: absolute;
+  margin-top: 24px;
+  padding: 0 13px;
+  width: content;
+  height: 31px;
+  border-radius: 23.4917px;
+  background: #D2E9FF;
+
+  font-family: 'GmarketSansLight';
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 31px;
+  color: #488FF7;
+}
+
+.modal_icon_text {
+  position: absolute;
+  margin: 74px 0 0 26px;
+  width: 146px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 15px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 150%;
+  color: #444958;
+}
+
+.modal_metarial_bubble{
+position: absolute;
+top: 1505px;
+left : 153px;
+width: 493px;
+height: 93px;
+
+background: #FDFDFD;
+box-shadow: 0px 8.04779px 10.4621px 1.60956px rgba(72, 143, 247, 0.07);
+border-radius: 80.4779px;
+}
+
+.lab_bubble {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 78.87px;
+  height: 78.87px;
+}
+
+.modal_metarial_text {
+  position: absolute;
+  left: 87px;
+  width: 406px;
+  height: 93px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 93px;
+  color: #324275;
+}
+
+.modal_metarial_area{
+  position: absolute;
+  top: 1641px;
+  width: 100%;
+  height: content;
+
+  /* border: 1px solid red; */
+}
+
+.modal_metarial_box {
+  float: left;
+  margin: 30px 31px;
+  width: 738px;
+  height: 463px;
+
+  background: #FFFFFF;
+  border: 1px solid #DCE1ED;
+  box-sizing: border-box;
+  border-radius: 15.3162px;
+}
+
+.material_name{
+  position: absolute;
+  width: 738px;
+  margin: 26px auto;
+
+  font-family: 'GmarketSansLight';
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+  color: #324275;
+}
+
+.material_volume {
+  position: absolute;
+  left: 50%;
+  height: 31px;
+  padding: 0 22px;
+  border: 1px solid #D2E9FF;
+  box-sizing: border-box;
+  border-radius: 31.9117px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 31px;
+  color: #324275;
+}
+
+.material_img_div {
+  position: absolute;
+  margin-top: 132px;
+}
+
+.material_img_div img {
+  float: left;
+  margin: 0 13px;
+}
+
+.metarial_desc{
+  position: absolute;
+  /* margin-top: 293px; */
+
+  font-family: 'GmarketSansLight';
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 150%;
+  color: #324275;
+
+  /* border: 1px dashed blue; */
+}
+
+.material_text_d_div {
+  position: absolute;
+  margin-top: 293px;
+}
+.material_text_d {
+  float: left;
+  margin: 0 13px;
+  width: 134px;
+  height: 32px;
+}
+
+.material_text_d p {
+  margin: 0 15px;
+  width: 107px;
+  height: 32px;
+  background: #D2E9FF;
+  border-radius: 31.9117px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 32px;
+  color: #324275;
+}
+
+.modal_metarial_description {
+  position: absolute;
+  margin-top: 374px;
+  margin-left: 179px;
+  width: 380px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 17px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 150%;
+  color: #324275;
+}
+
+.add_area {
+  position: absolute;
+  margin-top: 115px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 17px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 32px;
+  color: #324275;
+}
+
+.add_div{
+  float: left;
+  width: 164px;
+  height: 252px;
+}
+
+.add_name {
+  position: absolute;
+  margin: 4px 0 0 19px;
+  width: 125px;
+  height: 32px;
+  background: #D2E9FF;
+  border-radius: 31px;
+}
+
+.add_volume {
+  position: absolute;
+  margin: 41px 0 0 19px;
+  width: 125px;
+  height: 32px;
+  border: 1.06372px solid #D2E9FF;
+  box-sizing: border-box;
+  border-radius: 31px;
+
+  font-size: 15px;
+}
+
+.add_description {
+  margin: 94px auto;
+}
+
+
+
+.making_area {
+  position: absolute;
+  top: 4271px;
+  width: 100%;
+  height: content;
+}
+
+.modal_making_qBox {
+  position: absolute;
+  margin: 0 0 0 127px;
+  width: 545px;
+  height: 93px;
+
+  background: #FDFDFD;
+  box-shadow: 0px 8.04779px 10.4621px 1.60956px rgba(72, 143, 247, 0.07);
+  border-radius: 80.4779px;
+}
+
+.modal_making_box_area {
+  position: absolute;
+  margin: 178px 0 0 19px;
+  width: 761px;
+  height: content;;
+}
+
+.modal_making_box {
+  float: left;
+  margin: 15px;
+  width: 350px;
+  height: 385px;
+  border-radius: 21.8552px;
+}
+
+.modal_box_num {
+  position: absolute;
+  margin: 26px 0px 0px 26px;
+  width: 34px;
+  height: 46px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #444958;
+}
+
+.modal_making_img {
+  position: absolute;
+  margin: 22px 0 0 60px;
+}
+
+.modal_making_text {
+  position: absolute;
+  margin: 302px 0 0 38px;
+  width: 260px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 17px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 150%;
+  color: #444958;
+}
+
+.modal_making_subText {
+  position: absolute;
+  margin: 353px 0 0 30px;
+  /* width: 260px; */
+
+  font-family: 'GmarketSansLight';
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
+  /* line-height: 150%; */
+  color: #7783A6;
+}
+
+/* 레시피 저장소 - 섬유유연제 */
+
+.top_bg_box {
+  position: absolute;
+  width: 100%;
+  height: 520px;
+  border-radius: 8px 8px 0 0;
+}
+
+.top_white_box{
+  position: absolute;
+  top: 0;
+  left: 18px;
+
+  width: 365px;
+  height: 432px;
+
+  background: rgba(255,255,255,0.1);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.top_p_color {
+  color : #ffffff;
+}
+
+.top_title {
+  position: absolute;
+  top: 53px;
+  left: 111px;
+
+  font-family: 'GmarketSansMedium';
+  font-size: 28px;
+}
+
+.top_scent{
+  position: absolute;
+  top : 113px;
+  left: 31px;
+  /* width: 150.5px; */
+  padding: 0 15px;
+  height: 31.3px;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 87px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 32px;
+}
+
+.top_scent_bar{
+  position: absolute;
+  top: 178px;
+  left: 31px;
+  width: 14.45px;
+  height: 170.23px;
+  border-radius: 40px;
+}
+
+.top_note {
+  position: absolute;
+  top: 178px;
+  left: 45px;
+  width: 310px;
+  height: content;
+}
+
+.top_note_div {
+  float: left;
+  width: 310px;
+  height: 64px;
+}
+
+.top_dot_line {
+  position: absolute;
+  width: 17px;
+  margin-top : 20px;
+  border-top: 1px dotted #ffffff;
+}
+
+.top_note_value{
+  position: absolute;
+  margin-left: 21px;
+  height: 20px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight:500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.top_note_elements {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 21px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 14.5px;
+  font-weight: bolder;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.top_product {
+  position: absolute;
+  top: 377px;
+  left: 31px;
+  height: 30px;
+
+  font-family: 'GmarketSansLight';
+  font-weight: bolder;
+  font-size: 14px;
+  line-height: 30.5px;
+}
+
+.top_description {
+  position: absolute;
+  top : 561px;
+  left: 73px;
+  padding: 38px 44px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 11.0052px 27.5129px 0.917097px rgba(95, 157, 248, 0.15);
+  border-radius: 20px;
+}
+
+.top_description p {
+  width: 567px;
+
+  font-family: 'GmarketSansLight';
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 150%;
+  color: #444958;
+}
+
+.bubble_square {
+  position: absolute;
+  top: 27px;
+  left: 29px;
+}
